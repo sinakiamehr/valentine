@@ -8,7 +8,7 @@ function growYes(){
   yesScale*=1.25;
   yesBtn.style.transform=`scale(${yesScale})`;
   // Update text and image on No click
-  title.innerText = "Zahr Mar! No to Kochassss!😤";
+  title.innerText = "Zahr Mar! No too Koochassss!😤";
   visualContainer.innerHTML = '<img src="Yali.png" alt="Angry reaction" class="cat" style="width:220px;height:auto;border-radius:16px;">';
   
   const rect=yesBtn.getBoundingClientRect();
